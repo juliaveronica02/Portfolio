@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
@@ -29,7 +30,7 @@
 
       <!-- Landing Page !! -->
       <div class="landing">
-        <div class="landingText">
+        <div class="landingText" data-aos="fade-up" data-aos-duration="1000">
           <h1>
             Hi! This
             <span style="color: #1b39e0; font-size: 3vw"
@@ -46,14 +47,14 @@
             <a href="#">Download My CV.</a>
           </div>
         </div>
-        <div class="landingImage">
+        <div class="landingImage" data-aos="fade-down" data-aos-duration="2000">
           <img src="./image/background.jpg" alt="" />
         </div>
       </div>
 
       <!-- About Section -->
       <div class="about">
-        <div class="aboutText">
+        <div class="aboutText" data-aos="fade-up" data-aos-duration="1000">
           <h1>
             Hi! My name is <br />
             <span style="color: #2f8be0; font-size: 3vw"
@@ -62,7 +63,7 @@
           </h1>
           <img src="./image/mypic.png" alt="" />
         </div>
-        <div class="aboutList">
+        <div class="aboutList" data-aos="fade-left" data-aos-duration="1000">
           <ol>
             <li>
               <span>01</span>
@@ -103,12 +104,12 @@
 
       <!-- Info Section. -->
       <div class="infoSection">
-          <div class="infoHeader">
+          <div class="infoHeader" data-aos="fade-up" data-aos-duration="1000">
               <h1>My Abi<span style="color: #1b39e0;">lity :</span></h1>
           </div>
           <div class="infoCards">
-              <div class="card one">
-                  <img src="./image/background.png" class="cardOneImg" alt="">
+              <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+                  <img src="./image/background.png" class="cardOneImg" alt="" data-aos="fade-up" data-aos-duration="1100">
                   <div class="cardBgOne"></div>
                   <div class="cardContent">
                       <h2>HTML</h2>
@@ -121,8 +122,8 @@
                   </div>
               </div>
 
-              <div class="card one">
-                <img src="./image/background.png" class="cardOneImg" alt="">
+              <div class="card one" data-aos="fade-up" data-aos-duration="1300">
+                <img src="./image/background.png" class="cardOneImg" alt="" data-aos="fade-up" data-aos-duration="1200">
                 <div class="cardBgOne"></div>
                 <div class="cardContent">
                     <h2>CSS</h2>
@@ -135,8 +136,8 @@
                 </div>
             </div>
 
-            <div class="card one">
-                <img src="./image/background.png" class="cardOneImg" alt="">
+            <div class="card one" data-aos="fade-up" data-aos-duration="1600">
+                <img src="./image/background.png" class="cardOneImg" alt="" data-aos="fade-up" data-aos-duration="1300">
                 <div class="cardBgOne"></div>
                 <div class="cardContent">
                     <h2>JavaScript</h2>
@@ -210,11 +211,15 @@
 
       <!-- FOOTER! -->
       <div class="banner">
-          <div class="bannerText">
+          <div class="bannerText" data-aos="fade-up" data-aos-duration="1000">
               <h1>©Julia Veronica 2020. <span class="bannerInnerText">This design inspiration from <a href="https://www.youtube.com/watch?v=6OExw1Mhdhw">Youtube.</a> </span></h1>
           </div>
       </div>
 
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
