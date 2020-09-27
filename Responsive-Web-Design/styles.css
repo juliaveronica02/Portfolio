@@ -1,3 +1,4 @@
+/* Global class. */
 html,body {
     background-color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -9,6 +10,7 @@ html,body {
     text-decoration: none !important;
 }
 
+/* Navbar. */
 .nav{
     position: fixed;
     z-index: 1000;
@@ -26,7 +28,7 @@ html,body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
+/* nav class links and a href. */
 .nav .links a{
     margin-right: 25px;
     font-size: 16px;
@@ -114,8 +116,9 @@ html,body {
 .aboutList {
     width: 50%;
 }
-
+/* ordered list. */
 ol{
+    /* don't use ordered list style. */
     list-style: none;
     color: #1b39e0;
 }
