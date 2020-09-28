@@ -5,7 +5,6 @@ import Axios from "axios"
 
 const App = () => {
   const [query, setQuery] = useState("")
-  const
   const APP_ID= "5a2e06e2"
   const APP_KEY= "cdac9e92f552c2da251958ab2707aff6"
   const URL = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
