@@ -23,3 +23,4 @@ UserModels.pre("save", function (next) {
     this.password = bcrypt.hashSync(this.password, saltRounds)
     next();
 })
+module.exports = mongoose.model("user", UserModels)
