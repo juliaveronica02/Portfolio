@@ -13,6 +13,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+// mongodb confirguration.
 mongoodConnect = process.env.MONGODB_CONNECTION;
 mongoose.connect(mongoodConnect, {
   useNewUrlParser: true,
