@@ -28,3 +28,6 @@
 * request: allow us to make recall HTTP request to another API and wearing stalling this is for github repositories.
 * npm i -D nodemon: constantly watch our server so we don't have to refresh it every time we make a change.
 * concurrently: allow us to run our backend express server and frontend react dev server at the same time with one single command.
+
+## MongoDB connection.
+* password: qwerty123.
