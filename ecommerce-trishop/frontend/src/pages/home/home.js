@@ -1,11 +1,14 @@
 import React from 'react'
 import "./style.css"
 import HeaderImage from "../../images/images1.png"
+// import Category from "./categories"
+import Shoes from "../../images/categories1.png"
 
 export default function header() {
     return (
-        <div className="header-wave">
-        {/* HEADER */}
+        <>
+        {/* Header. */}
+        <div className="header-wave"> 
         <div className="container-home">
         <div className="row">
             <div className="col-2">
@@ -20,6 +23,35 @@ export default function header() {
         </div>
         </div>
         </div>
-
+        {/* CATEGORIES */}
+        <div className="categories">
+            <h2 className>CATEGORY.</h2>
+            <hr className="hr" />
+        <div className="small-container">
+             <div className="row">
+            <div class="col-3">
+                <img src={Shoes} alt="categories" />
+            </div>
+            <div class="col-3">
+                <img src={Shoes} alt="categories" />
+            </div>
+            <div class="col-3">
+                <img src={Shoes} alt="categories" />
+            </div>
+        </div>
+        </div>
+    </div>
+    {/* FEATURED PRODUCTS. */}
+    <div className="small-container">
+        <h2>Featured Products.</h2>
+        <div className="row">
+            <div className="col-4">
+                <img src={Shoes} />
+                <h4>Pink Shoes</h4>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </div>
+    </>
     )
 }
