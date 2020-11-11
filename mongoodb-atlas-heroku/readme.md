@@ -1,6 +1,5 @@
 * sign in to mongodb.com.
 * build new project.
-
 * select free cluster.
 * choose singapore.
 * create cluster.
